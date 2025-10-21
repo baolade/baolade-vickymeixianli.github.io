@@ -1,0 +1,11 @@
+# _data/navigation.yml
+- title: About
+  url: /
+- title: Publications
+  url: /publications/
+- title: Projects
+  url: /projects/
+- title: CV
+  url: /cv/
+- title: Fun stuff
+  url: /fun-stuff/
