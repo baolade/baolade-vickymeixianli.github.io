@@ -40,6 +40,9 @@ description: Fun stuff outside academia
   font-size:.9rem;color:var(--text-muted);
   background:rgba(255,255,255,.85);padding:.2rem .55rem;border-radius:.5rem;box-shadow:0 1px 4px rgba(0,0,0,.1)
 }
+.vm-prev, .vm-next { z-index: 10; }
+.vm-counter { z-index: 9; }
+.vm-carousel { overflow: visible; }
 @media (min-width:992px){ .vm-slide img{height:520px} }
 </style>
 
