@@ -19,12 +19,12 @@
   caption: High Island Reservoir
 
 - src: /assets/img/others/toast.jpg
-  alt: Bluberry ricotta toast
-  caption: Bluberry ricotta toast
+  alt: Blueberry ricotta toast
+  caption: Blueberry ricotta toast
 
 - src: /assets/img/others/hiking2.jpg
-  alt: Tap Mun Island
-  caption: Tap Mun Island
+  alt: Tap Mun
+  caption: Tap Mun
 
 - src: /assets/img/others/magnets.jpg
   alt: Magnets collection
@@ -51,8 +51,8 @@
   caption: Curry on the bench
 
 - src: /assets/img/others/hiking5.jpg
-  alt: Qingyuan Guangdong
-  caption: Qingyuan Guangdong
+  alt: Qingyuan, Guangdong
+  caption: Qingyuan, Guangdong
 
 - src: /assets/img/others/curry2.jpg
   alt: Curry (sleeping)
@@ -69,3 +69,4 @@
 - src: /assets/img/others/curry7.jpg
   alt: Curry tired to study
   caption: Curry tired to study
+
