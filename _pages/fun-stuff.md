@@ -4,7 +4,7 @@ title: Fun stuff
 permalink: /fun-stuff/
 description: Fun stuff outside academia
 nav: true            # ← 让它出现在导航栏
-nav_order: 80        # ← 排序：数字越小越靠左（按需改，比如 60/70/90）
+nav_order: 8        # ← 排序：数字越小越靠左（按需改，比如 60/70/90）
 ---
 <!-- ============ Carousel ============ -->
 <div class="vm-carousel" id="funCarousel" tabindex="0" aria-label="Photo carousel">
