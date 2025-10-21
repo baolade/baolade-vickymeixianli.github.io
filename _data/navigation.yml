@@ -1,11 +1,33 @@
-# _data/navigation.yml
-- title: About
-  url: /
-- title: Publications
-  url: /publications/
-- title: Projects
-  url: /projects/
-- title: CV
-  url: /cv/
-- title: Fun stuff
-  url: /fun-stuff/
+main:
+  - title: about
+    url: /
+
+  - title: blog
+    url: /blog/
+
+  - title: publications
+    url: /publications/
+
+  - title: projects
+    url: /projects/
+
+  - title: repositories
+    url: /repositories/
+
+  - title: cv
+    url: /cv/
+
+  - title: teaching
+    url: /teaching/
+
+  # 你要新增的页面
+  - title: Fun stuff
+    url: /fun-stuff/
+
+  # （可选）演示里的下拉菜单，仍然可以保留
+  - title: submenus
+    submenus:
+      - title: bookshelf
+        url: /books/
+      - title: blog
+        url: /blog/
