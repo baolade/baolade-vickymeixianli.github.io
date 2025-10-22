@@ -90,7 +90,7 @@ nav_order: 7        # ← 排序：数字越小越靠左（按需改，比如 60
 <script>
 (function () {
   /* 找到和本 <script> 配对的那一个轮播（不影响别处） */
-  const root    = document.currentScript.previousElementSibling.previousElementSibling;
+  const root = document.querySelector('.vm-carousel');   // 更稳，直接选当前页面唯一的轮播
   const track   = root.querySelector('.vm-track');
   const prevBtn = root.querySelector('.vm-prev');
   const nextBtn = root.querySelector('.vm-next');
@@ -139,7 +139,9 @@ nav_order: 7        # ← 排序：数字越小越靠左（按需改，比如 60
   }
 
   /* 初始定位到第 1 张真实图：此时左侧就能若隐若现看到最后一张 */
-  update(true);
+  if (document.readyState === 'complete') update(true);
+else window.addEventListener('load', () => update(true));
+
 
   /* 按钮、键盘、触摸 */
   prevBtn.addEventListener('click', () => go(-1));
