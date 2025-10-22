@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fun stuff
+title: Fun stuff
 permalink: /fun-stuff/
 description: Fun stuff outside academia
 nav: true            # ← 让它出现在导航栏
@@ -25,11 +25,11 @@ nav_order: 7        # ← 排序：数字越小越靠左（按需改，比如 60
 
 <!-- ============ Notes ============ -->
 <p class="fun-note">
-  Outside academia, I’m usually go hiking, try different restraurants around the city, and sometimes climb rocks.
+  Outside academia, I usually go hiking, try different restraurants around the city, and climb some rocks.
 </p>
 <p class="fun-note">
-  Indoors, I’m into nerdy board-game nights with friends, sinking hours into ARPG/RPG video games,
-  and reading sci-fi novels and mangas with my cat Curry (named after curry rice for his color).
+  Indoors, I’m into nerdy board-game nights with friends, sinking hours into ARPG/RPG video games, watching animes,
+  and reading sci-fi novels with my cat Curry (named after curry rice for his color).
 </p>
 
 <!-- ============ Styles (keep at bottom so overrides win) ============ -->
