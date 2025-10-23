@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student
+subtitle: PhD student/The Hong Kong Polytechnic University
 
 profile:
   align: right
@@ -10,21 +10,16 @@ profile:
   image_circular: true          # 圆形头像（想要方形就改回 false）
   more_info: >
     <p><a href="mailto:meixian.li@connect.polyu.hk">meixian.li@connect.polyu.hk</a></p>
-    <p>The Hong Kong Polytechnic University</p>
-    <p><a href="/cv/">CV</a> · <a href="/fun-stuff/">Fun stuff</a></p>
 
-selected_papers: true          # 显示标记了 selected=true 的论文
-social: true                   # 页面底部显示社交图标（在 _data/socials.yml 里配）
+
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
+  enabled: false
 ---
 
 I’m Meixian Li, a PhD student in Linguistics at The Hong Kong Polytechnic University. My research lies at the intersection of phonetics and sociolinguistics, with a particular focus on voice quality and how it interacts with speaker identity factors such as gender, age, and language background. I am especially interested in how bilingual speakers produce and perceive this phonetic variation, and how their languages interact and influence one another. At PolyU, I work with [Prof. Yao Yao](https://sites.google.com/view/yao-yao-linguistics/) and [Prof. Charles B. Chang](https://cbchang.com/) on a project examining the social meanings of creaky voice in Mandarin Chinese.
